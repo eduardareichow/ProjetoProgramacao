@@ -1,0 +1,59 @@
+//1. Objeto
+
+/*const obj = {
+    nome:"duda",
+    idade : 13,
+};
+
+console.log(obj);
+
+const novoObjeto = {
+    ...obj,
+    cidade:"osorio",
+    arrays: [1, 2, 4],
+};
+
+console.log(novoObjeto); 
+console.log(novoObjeto.arrays);
+console.log(novoObjeto.cidade);*/
+
+//2. Função
+
+/*function myFu() {
+    console.log("funcao s parametros");
+}
+
+myFu();
+
+function myFuP(p1) {
+    console.log("func c parametro: ", p1)
+
+}
+
+myFuP();*/
+
+//3. 
+
+/*const minhaFunc = (p2) => {
+    console.log(p2)
+}
+
+const minhaFuncRetorno = (par, par2) => {
+    return par + par2;
+}
+
+const variavel = minhaFuncRetorno(1, nome="oi");
+console.log(variavel);
+
+const variavel4 = minhaFuncRetorno(1, 2);
+console.log(variavel4);*/
+
+//4. Callback
+
+/*const Callback = () => {
+    console.log("callBack",parametro);
+};
+
+const funcao = (funcaoDefora) => funcaoDefora("opa");
+
+funcao(callBack());*/
