@@ -57,3 +57,39 @@ console.log(variavel4);*/
 const funcao = (funcaoDefora) => funcaoDefora("opa");
 
 funcao(callBack());*/
+
+/*const alunoTarde = {
+    nome: "Nome",
+    idade: 15,
+};
+
+console.log(alunoTarde);
+
+const arrayAlunos = [alunoTarde, alunoTarde, {idade: 16, nome: "outro nome"}];
+
+const arrayAlunosNoite = arrayAlunos.map ((elemento) => {
+    return {...elemento, idade: elemento.idade +5};
+})
+
+console.log(arrayAlunos);
+console.log(arrayAlunosNoite);
+
+const alunosFiltrados = arrayAlunos.filter ((elemento)=> {
+    return elemento.nome === "Nome";
+});
+
+console.log(alunosFiltrados);*/
+
+const alunoTarde = {
+    nome: "Nome",
+    idade: 15,
+};
+
+const arrayAlunos = [alunoTarde, alunoTarde, {idade: 16, nome: "outro nome"}];
+
+const reduzido = arrayAlunos.reduce((acumulador,elemento,index,aray)=> {
+    if(index + 1 === arrayAlunos.length) {
+        return acumulador = elemento.nome + ".";
+    }
+    return acumulador + elemento.nome + ".";
+});
