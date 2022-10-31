@@ -1,3 +1,3 @@
 # Projeto
-Repositório do projeto caua
+Repositório dos códigos do Projeto de Programação
 
